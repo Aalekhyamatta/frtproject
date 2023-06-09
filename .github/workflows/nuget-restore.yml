@@ -3,11 +3,11 @@ name: NuGet Package Restore
 on:
   push:
     branches:
-      - master  # Adjust this to match the branch you want to trigger the workflow on
+      - master
 
 jobs:
   restore:
-    runs-on: ubuntu-latest  # You can choose a different operating system if needed
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
@@ -16,7 +16,9 @@ jobs:
       - name: Setup MSBuild
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '7.x'  # Specify the version of .NET to use
+          dotnet-version: '7.x'
 
       - name: Restore NuGet packages
-        run: nuget restore
+        run: dotnet restore
+        working-directory: ./frtproject  # Specify the correct path to your project
+
