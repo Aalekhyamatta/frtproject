@@ -1,9 +1,15 @@
 # frtproject
+TRAVEL
 azure link:https://ashy-sand-0a129e310.3.azurestaticapps.net/
 
-Features:
->Interactive and responsive UI
->Has many grphical and visual innovative elements
+## Features and Functionalities 😃
+
+- Interactive and responsive UI.
+- Has many graphical and visual innovative effects.
+- Have an aesthetically pleasing visual design and architecture.
+- Has collection of many web pages including Home, About Us, Contact, Destination
+- User can know about travel information through this website.
+
 
 screenshots:
 ![image](https://github.com/Aalekhyamatta/frtproject/assets/108809892/4fece908-d736-454b-9811-e61f9a615b09)
