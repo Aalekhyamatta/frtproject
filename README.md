@@ -20,6 +20,7 @@ screenshots:
 
 Azure Technologies used for the project
 >static web app
+
 >azure bot
 
 
